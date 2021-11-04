@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/9bc480b551.js" crossorigin="anonymous"></script>
+    <title>Tip calculator app</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <div id="first">SPLI</div>
+            <div id="second">TTER</div>
+        </div>
+        
+        <div class="main-content">
+            <div class="main-input">
+                <span class="currency-code">$</span>
+                <div class="bill-area">
+                    <span class="bill-title">Bill</span>
+                    <input type="text" class="bill-input" placeholder="0">
+                </div>
+            </div>
+            <div class="tips-title">Select Tips %</div>
+            <div class="tips">
+                <button class="tip five">5%</button>
+                <button class="tip ten">10%</button>
+                <button class="tip fifteen">15%</button>
+                <button class="tip twenty-five">25%</button>
+                <button class="tip fifty">50%</button>
+                <input class="custom" placeholder="Custom">
+            </div>
+
+            <div class="number-of-people">
+                <span class="person"><i class="fa-solid fa-user-large"></i></span>
+                <div class="num-pip-area">
+                    <div class="number-of-people-spans">
+                        <span class="num-title">Number of people</span>
+                        <span class="zero">Can't be zero</span>
+                    </div>
+                    <input type="text" class="number-of-people-input" placeholder="0">
+                
+                </div>
+
+            </div>
+            <div class="display-amount">
+                <div class="display-tip-amount">
+                    <div class="tip-title">
+                        <p class="tip-title-h1" >Tip Amount<p>
+                        <p class="tip-title-p">/ person</p>
+                    </div>
+                    <div class="tip-amount">$0.00</div>
+                </div>
+
+                <div class="display-total-amount">
+                    <div class="total-title">
+                        <p class="total-title-h1" >Total</p>
+                        <p class="tip-title-p">/ person</p>
+                    </div>
+                    <div class="total-amount">$0.00</div>
+                </div>
+                <button type="reset" class="reset-btn">RESET</button>
+
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
